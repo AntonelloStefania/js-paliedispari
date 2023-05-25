@@ -49,7 +49,6 @@ submit.addEventListener('click', function(){
      if (bet_value && sumResult){
          return_box.innerHTML = `hai scelto pari ed il risultato è...PARI , HAI VINTO!!! `
      } else if (bet_value && sumResult === false){
-      
         return_box.innerHTML =`hai scelto pari ed il risultato è...DISPARI, VINCE IL TUO AVVERSARIO`
      } else if (bet_value === false && sumResult ){
          return_box.innerHTML =`hai scelto dispari ed è uscito...PARI, VINCE IL TUO AVVERSARIO`
@@ -57,4 +56,5 @@ submit.addEventListener('click', function(){
         return_box.innerHTML =`hai scelto dispari ed è uscito...DISPARI, HAI VINTO!!!`
      } 
 }
+
 })

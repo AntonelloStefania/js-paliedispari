@@ -9,15 +9,23 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <h1>Gioca a pari o dispari</h1>
+    <div class="return-box"></div>
     <div class="container">
-        <input type="number" min="1" max="5" step="1" value="" id="num1-5">
-        <select name="select" id="bet">
-            <option class="betting" value="0">pari</option>
-            <option class="betting" value="1">dispari</option>
-        </select>
-        <button type="submit" id="submit">gioca</button>
-        <div class="return-box"></div>
+        <div class="numberchoice">
+            <h4>scegli qui il tuo numero</h4>
+            <input type="number" min="1" max="5" step="1" value="" id="num1-5">
+        </div>
+        <div class="selection">
+            <h4>fai la tua scelta</h4>
+            <select name="select" id="bet">
+                <option class="betting" value="0">pari</option>
+                <option class="betting" value="1">dispari</option>
+            </select>
+        </div>
     </div>
-    
+    <div class="button-container">
+        <button type="submit" id="submit" class="button">gioca</button>
+    </div>
 </body>
 </html>
