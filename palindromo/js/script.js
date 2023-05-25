@@ -19,11 +19,11 @@ full_nome_reverse = nome_reverse.join('');
 submit.addEventListener('click', function(){
     nome = document.getElementById('name').value;
     nameCheck(nome)
-        if(nameCheck(nome)=== true){
-            return_box.innerHTML = 'la parola è palindroma'
-        } else if (!isNaN(nome)){
+        if(!isNaN(nome)){
             return_box.innerHTML = 'inserire una parola valida'
+        } else if (nameCheck(nome)=== true){
+            return_box.innerHTML = `la parola ${nome} è palindroma`
         } else {
-            return_box.innerHTML = 'la parola non è palindroma'
+            return_box.innerHTML = `la parola ${nome} non è palindroma`
         }
 })
