@@ -4,17 +4,17 @@ return_box.innerHTML='';
 let nome;
 
 
-    function nameCheck(name_check){
-    nome_split = nome.split('');
-    nome_reverse = nome_split.reverse();
-    full_nome_reverse = nome_reverse.join('');
+function nameCheck(name_check){
+nome_split = nome.split('');
+nome_reverse = nome_split.reverse();
+full_nome_reverse = nome_reverse.join('');
 
-        if(nome===full_nome_reverse){
-            return true
-        } else{
-            return false
-        }
-        }   
+    if(nome===full_nome_reverse){
+        return true
+    } else{
+        return false
+    }
+}   
                 
 submit.addEventListener('click', function(){
     nome = document.getElementById('name').value;
