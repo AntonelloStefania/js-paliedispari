@@ -11,6 +11,7 @@ body{
     justify-content: center;
     height: 100vh;
     flex-direction: column;
+    font-family: 'Righteous', cursive;
 }
 
 .container{
@@ -78,7 +79,7 @@ h4{
 
 .return-box{
     height: 3rem;
-    padding: 0.2rem 1.3rem;
+    padding: 0rem 1.3rem;
     background-color: #6F2232;
     width: 30rem;
     border: 2px solid #4E4E50;
